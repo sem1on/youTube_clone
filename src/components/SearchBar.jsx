@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Paper, IcomButton, IconButton } from '@mui/material';
 import { Search } from '@mui/icons-material';
 
+
 const SearchBar = () => {
     return (
         <Paper
