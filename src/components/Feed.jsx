@@ -3,6 +3,9 @@ import React, { useState, useEffect } from 'react';
 import { Typography, Box, Stack } from '@mui/material';
 
 import SideBar from './SideBar';
+import Videos from './Videos';
+
+import { fetchFromAPI } from '../utils/fetchFromAPI';
 
 
 const Feed = () => {
@@ -20,6 +23,7 @@ const Feed = () => {
                 <Typography variant='h4' fontWeight='bold' mb={2} sx={{ color: 'white' }}>
                     New <span style={{ color: '#FC1503' }}>videos</span>
                 </Typography>
+                <Videos videos={[]}/>
             </Box>
         </Stack>
     );
