@@ -15,6 +15,7 @@ const SearchBar = () => {
                 pl: 2,
                 boxShadow: 'none',
                 mr: { sm: 5 },
+                background: '#1e1e1e',
             }}
             onSubmit={() => {}}
         >
@@ -22,7 +23,7 @@ const SearchBar = () => {
                 className='search-bar'
                 placeholder='Search.....'
                 value=''
-                onChange={() => {}} 
+                onChange={() => {}}
             />
             <IconButton type='submit' sx={{ p: '10px' , color: 'red'}}>
                 <Search/>
