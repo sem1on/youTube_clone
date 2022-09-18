@@ -35,7 +35,7 @@ const Feed = () => {
                     variant='body2' 
                     sx={{ mt: 1.5, color: '#fff'}}
                 >
-                    s21
+                    by sem1on
                 </Typography>
             </Box>
 
