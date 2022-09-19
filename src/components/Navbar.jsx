@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Stack } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 
 import { logo } from '../utils/constans';
 import SearchBar from './SearchBar';
@@ -21,6 +21,7 @@ const Navbar = () => (
     >
         <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
             <img src={logo} alt="logo" height={45} />
+            <Typography color="#fff" variant="h5" fontWeight="bold" p={2}>Wv</Typography>
         </Link>
         <SearchBar/>
     </Stack>
