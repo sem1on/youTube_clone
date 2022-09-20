@@ -8,7 +8,7 @@ import Loader from './Loader';
 
 const Videos = ({ videos, direction }) => {
 
-    if(!videos?.lenght) return <Loader/>;
+    if(!videos?.length) return <Loader />;
 
     return (
         <Stack direction={ direction || "row"} flexWrap="wrap" justifyContent="center" gap={2} >
